@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Button disable>disable</Button>
-      <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>hello button</Button>
+      <Button onClick={() => { console.log(134) }} btnType={ButtonType.Primary} size={ButtonSize.Large}>hello button</Button>
       <Button btnType={ButtonType.Danger} size={ButtonSize.Small}>hello button</Button>
       <Button disable btnType={ButtonType.Link} href="http://www.baidu.com">Baidu Link dis</Button>
       <Button btnType={ButtonType.Link} href="http://www.baidu.com">Baidu Link</Button>
